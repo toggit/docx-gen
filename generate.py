@@ -1,6 +1,7 @@
-from StringIO import StringIO
+from io import StringIO
 from docx.shared import Cm
 from docxtpl import DocxTemplate, InlineImage
+
 
 def get_context():
     """ You can generate your context separately since you may deal with a lot 
